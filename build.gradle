@@ -25,7 +25,8 @@ dependencies {
 
     implementation(platform("software.amazon.awssdk:bom:2.21.1"))
     implementation 'software.amazon.awssdk:s3'
-    implementation 'com.amazonaws:aws-java-sdk-s3:1.12.610' // 버전은 최신 버전으로 확인 후 사용
+//    Implementation 'software.amazon.awssdk:s3:2.21.43'
+//    implementation 'com.amazonaws:aws-java-sdk-s3:1.12.610' // 버전은 최신 버전으로 확인 후 사용
     testImplementation 'org.mockito:mockito-core:4.0.0' // Mockito 종속성
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
